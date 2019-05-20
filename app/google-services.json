@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472451513179",
+    "firebase_url": "https://intellegentfinanceapp.firebaseio.com",
+    "project_id": "intellegentfinanceapp",
+    "storage_bucket": "intellegentfinanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472451513179:android:16100b792435032d",
+        "android_client_info": {
+          "package_name": "com.swastikijari.intellegent_finance_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472451513179-sjpjjr3e3a70lf7jaj752h3d8ph6ukoc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swastikijari.intellegent_finance_app",
+            "certificate_hash": "d68604861162b15a5ac07091c16efa150d055f08"
+          }
+        },
+        {
+          "client_id": "472451513179-bj4q699cul0b0p5ddm9mtngujkhqkd3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUNlKTxuQVqBsxgvpMCucWjQ-x04DeAKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472451513179-bj4q699cul0b0p5ddm9mtngujkhqkd3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mutual_funds">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:id="@+id/ma"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               app:srcCompat="@drawable/ma" />
+           <ImageView
+               android:id="@+id/mb"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:layout_below="@+id/ma"
+               app:srcCompat="@drawable/mb" />
+           <ImageView
+               android:id="@+id/mc"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:layout_below="@+id/mb"
+               app:srcCompat="@drawable/mc" />
+           <ImageView
+               android:id="@+id/md"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:layout_below="@+id/mc"
+               app:srcCompat="@drawable/md" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_margin="10dp"
+               android:textSize="30sp"
+               android:layout_below="@+id/md"
+               android:text="@string/mutual_funds"/>
+
+           <TextView
+               android:id="@+id/textView6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/mb"
+               android:layout_centerHorizontal="true"
+               android:text="A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors to invest in securities such as stocks, bonds, money market instruments, and other assets. Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors. A mutual fund's portfolio is structured and maintained to match the investment objectives stated in its prospectus.
+
+Mutual funds give small or individual investors access to professionally managed portfolios of equities, bonds and other securities. Each shareholder, therefore, participates proportionally in the gains or losses of the fund. Mutual funds invest in a vast number of securities, and performance is usually tracked as the change in the total market cap of the fund—derived by the aggregating performance of the underlying investments." />
+
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+</RelativeLayout>
